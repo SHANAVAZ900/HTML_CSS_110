@@ -1,0 +1,83 @@
+
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:rgb(13, 168, 168);
+    border:1px black solid;
+}
+
+h3{
+    
+    background-color: cornflowerblue;
+    font-family: fantasy;
+    text-transform: capitalize;
+}
+
+.outer{
+    background-image: url(https://1.bp.blogspot.com/-vzaUdyAPtUM/Xdt7Noqk1eI/AAAAAAAAQM4/SkUhhKDg_wEKJ6yBX269jo2pKkENCqafwCLcBGAsYHQ/s1600/Beautiful-Backgrounds%2B%252820%2529.jpg);
+    background-size: auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 10rem;
+}
+
+p{
+    text-decoration-color: deeppink;
+    background-color: coral;
+}
+
+.rounded img{
+    border-color: rgba(97, 13, 13, 0.945);
+    border-radius:60%;
+    margin: auto;
+    padding: 50px;
+    width: 15%;
+
+    
+
+}
+
+#unordered-lists{
+    list-style:none;
+    padding: 0.5em;
+    background-size: auto;
+    background-color: crimson;
+    border: 2px black solid;
+    width: 50%;
+    margin:auto;
+    text-align: center;
+}
+
+.ordered-lists{
+    list-style: none;
+    background-size: auto;
+    background-color: crimson;
+    border: 2px black solid;
+    text-align: center;
+    width: 50%;
+    list-style-position: inside;
+    margin: auto;
+    padding-right: 0.5em;
+
+}
+
+#seed{
+    width: 300px;
+    height:200px;
+    margin-bottom: 10px;
+}
+
+tr,td{
+    border:2px black solid;
+    margin: auto;
+    padding: 0.5em;
+    text-align: center;
+    background-color: goldenrod;
+    text-transform: capitalize;
+
+}
+
+table{
+    border-collapse: collapse;
+    margin:auto
+}

@@ -4,6 +4,7 @@
     text-align: center;
     background-color:rgb(13, 168, 168);
     border:1px black solid;
+    
 }
 
 h3{
@@ -11,19 +12,23 @@ h3{
     background-color: cornflowerblue;
     font-family: fantasy;
     text-transform: capitalize;
+    white-space: nowrap;
+    text-align: center;
+
 }
 
 .outer{
     background-image: url(https://1.bp.blogspot.com/-vzaUdyAPtUM/Xdt7Noqk1eI/AAAAAAAAQM4/SkUhhKDg_wEKJ6yBX269jo2pKkENCqafwCLcBGAsYHQ/s1600/Beautiful-Backgrounds%2B%252820%2529.jpg);
-    background-size: auto;
-    width: fit-content;
-    height: fit-content;
+    height: auto;
+    width: auto;
+ 
     padding: 10rem;
 }
 
 p{
     text-decoration-color: deeppink;
     background-color: coral;
+    display: inline;
 }
 
 .rounded img{
@@ -32,10 +37,13 @@ p{
     margin: auto;
     padding: 50px;
     width: 15%;
+    
+   
 
     
-
 }
+
+
 
 #unordered-lists{
     list-style:none;
@@ -46,6 +54,8 @@ p{
     width: 50%;
     margin:auto;
     text-align: center;
+
+    
 }
 
 .ordered-lists{
@@ -54,17 +64,21 @@ p{
     background-color: crimson;
     border: 2px black solid;
     text-align: center;
-    width: 50%;
+    margin-right: auto;
     list-style-position: inside;
-    margin: auto;
-    padding-right: 0.5em;
+    display: flow-root;
 
 }
 
+.joker{
+    padding-right: 10em;
+}
+
 #seed{
-    width: 300px;
-    height:200px;
-    margin-bottom: 10px;
+    width: 200px;
+    height:100px;
+    margin: 10px;
+    float: left;
 }
 
 tr,td{
@@ -79,5 +93,23 @@ tr,td{
 
 table{
     border-collapse: collapse;
-    margin:auto
+    margin:auto;
 }
+
+#shan{
+    float:left;
+}
+
+
+
+
+.tools{
+    display: grid;
+}
+
+.kold{
+    float: initial;
+
+}
+
+
